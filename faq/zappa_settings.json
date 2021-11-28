@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "aws_region": "ap-northeast-1",
+        "django_settings": "faq.settings",
+        "profile_name": "default",
+        "project_name": "faq",
+        "runtime": "python3.8",
+        "s3_bucket": "",
+        "environment_variables": {
+            "DJANGO_SECRET_KEY": "",
+            "DJANGO_DEBUG": "True",
+            "DB_HOST": "",
+            "DB_USER": "admin",
+            "DB_PASSWORD": "",
+            "DB_NAME": "faq",
+            "DB_PORT": "3306",
+            "DB_SSL_FILE": "rds-ca-2019-root.pem"
+        }
+    }
+}
